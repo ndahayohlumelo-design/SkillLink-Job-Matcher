@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillLink Job Matcher</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+    <div class="card">
+        <h1>SkillLink Job Matcher</h1>
+        <p>Enter your skills and get personalized job suggestions!</p>
+
+        <div class="input-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="input-group">
+            <label>Select Your Skills</label>
+            <div class="skills-checkboxes">
+                <label><input type="checkbox" value="java"> Java</label>
+                <label><input type="checkbox" value="web"> Web Development</label>
+                <label><input type="checkbox" value="data"> Data Analysis</label>
+                <label><input type="checkbox" value="business"> Business Analysis</label>
+                <label><input type="checkbox" value="marketing"> Marketing</label>
+            </div>
+        </div>
+
+        <button id="matchBtn">Find Jobs</button>
+
+        <div id="results"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
